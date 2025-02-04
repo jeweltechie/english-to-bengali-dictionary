@@ -4,6 +4,8 @@ A modern, responsive web-based dictionary application that provides seamless tra
 
 ![Dictionary Preview](preview.png)
 
+## [View Project](https://github.com/jeweltechie/english-to-bengali-dictionary)
+
 ## Features
 
 - **Bi-directional Translation**
@@ -25,8 +27,7 @@ A modern, responsive web-based dictionary application that provides seamless tra
   - Up to 10 relevant results
 
 - **Additional Features**
-  - UTC time display
-  - User tracking system
+  - User IP tracking system
   - Responsive design for all devices
   - Clean and intuitive interface
 
@@ -47,4 +48,30 @@ The dictionary uses a JSON database structure:
     "en": "word",
     "bn": "বাংলা অনুবাদ (parts of speech), অন্যান্য অনুবাদ"
 }
+```
+## Installation
+
+ **Clone the repository:**
+
+ ```sh
+git clone https://github.com/jeweltechie/english-to-bengali-dictionary.git
+```
+
+ **Navigate to the project directory:**
+   ```sh
+   
+cd english-to-bengali-dictionary
+```
+## Usage
+
+- **English to Bengali Search:**
+  - Select "English to Bengali" tab
+  - Type English word in the search box
+  - Results appear automatically
+
+- **Bengali to English Search:**
+  - Select "Bengali to English" tab
+  - Type Bengali word using unicode
+  - View multiple English translations
+
 
