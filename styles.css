@@ -29,7 +29,7 @@ body {
     font-size: 0.9rem;
 }
 
-.datetime, .user-info {
+ .user-info {
     display: flex;
     align-items: center;
     gap: 0.8rem;
@@ -38,10 +38,30 @@ body {
     border-radius: 20px;
 }
 
-.datetime i, .user-info i {
+.user-info i {
     font-size: 1rem;
 }
+.nav-links {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
 
+.cred-link {
+    color: white;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    background: rgba(255, 255, 255, 0.1);
+    transition: background-color 0.2s;
+}
+
+.cred-link:hover {
+    background: rgba(255, 255, 255, 0.2);
+}
 /* App Header */
 .app-header {
     text-align: center;
